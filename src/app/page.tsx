@@ -1,17 +1,19 @@
-import { Header } from "@/sections/Header";
-import { HeroSection } from "@/sections/Hero";
-import { ProjectsSection } from "@/sections/Projects";
-import { TapeSection } from "@/sections/Tape";
-import { TestimonialsSection } from "@/sections/Testimonials";
+import About from "@/sections/About";
+import Header from "@/sections/Header";
+import Hero from "@/sections/Hero";
+import Projects from "@/sections/Projects";
+import Tape from "@/sections/Tape";
+import Testimonials from "@/sections/Testimonials";
 
 export default function Home() {
   return (
     <div>
       <Header />
-      <HeroSection />
-      <ProjectsSection />
-      <TapeSection />
-      <TestimonialsSection />
+      <Hero />
+      <Projects />
+      <Tape />
+      <Testimonials />
+      <About />
     </div>
   );
 }
